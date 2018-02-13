@@ -55,3 +55,25 @@ body{
 	left: -59px;
 	top: 0px;
 }
+.se-content h3:after{
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 38px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-left: 60px solid black;
+	position: absolute;
+	right: -59px;
+	top: 0px;
+}
+.se-slope:nth-child(odd) .se-content h3:before,
+.se-slope:nth-child(odd) .se-content h3:after{
+	border-right-color:#e90089;
+	border-left-color: #e90089;
+}
+.se-content p{
+    width: 75%;
+    max-width: 500px;
+    margin: 0 auto;
+    font-style: italic;
+}
