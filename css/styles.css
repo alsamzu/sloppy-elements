@@ -76,4 +76,7 @@ body{
     max-width: 500px;
     margin: 0 auto;
     font-style: italic;
+    font-size:18px;
+    line-height: 24px;
+    padding-top: 10px;
 }
