@@ -44,3 +44,14 @@ body{
     color: #000;
     background: #e90089;
 }
+.se-content h3:before{
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 38px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-right: 60px solid black;
+	position: absolute;
+	left: -59px;
+	top: 0px;
+}
